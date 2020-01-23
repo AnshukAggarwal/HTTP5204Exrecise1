@@ -29,6 +29,7 @@ namespace PetGrooming.Models
             public string OwnerAddress { get; set; }
             public string OwnerHomePhone { get; set; }
             public string OwnerWorkPhone { get; set; }
+            public string OwnerEmail { get; set; } //I think email will be required for the owner.
 
     }
 }

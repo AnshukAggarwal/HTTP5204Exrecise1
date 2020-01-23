@@ -24,6 +24,7 @@ namespace PetGrooming.Models
                 public int GroomerID { get; set; }
                 public string GroomerFname { get; set; }
                 public string GroomerLname { get; set; }
+                public DateTime GroomerDateofBirth { get; set; }
                 public string GroomerPhone { get; set; }
                 public double GroomerRate { get; set; }
                 public int GroomerExperiene { get; set; }
